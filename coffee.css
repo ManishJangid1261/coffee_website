@@ -313,6 +313,8 @@ header .navbar {
     background: #fff;
     position: relative;
     margin: 2rem;
+    margin-top: 8rem;
+    margin-left: 30rem ;
     width: 43rem;
     height: 37rem;
     border-radius: 15px;
@@ -759,44 +761,3 @@ footer a:hover {
     }
 }
 
-
-
-
-
-/* 
-.navbar .menu-bar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    flex-direction: column;
-    width: 260px;
-    height: 100%;
-    background: #fff;
-    padding: 70px 40px 0;
-    transition: left 0.3s ease; 
-    z-index: 1000;
-}
-
-
-header.showMenu::before {
-    content: "";
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px);
-    z-index: 900;
-}
-
-#menu-button {
-    color: #ffffff;
-    cursor: pointer;
-    display: block; 
-    font-size: 22px;
-    padding: 4px 6px;
-}
-
-#close-button {
-    display: none;
-} */
